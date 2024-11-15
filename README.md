@@ -33,7 +33,7 @@ chmod +x start.sh
 ```
 
 ## Usage
-1. Start the application:
+1. Start the application and wait until its ready:
 ```bash
 ./start.sh
 ```
