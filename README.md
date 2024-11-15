@@ -28,7 +28,7 @@ cd transcribe
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install .
+pip install -r requirements.txt
 ```
 
 3. Make the script executable:
