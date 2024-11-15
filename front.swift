@@ -47,7 +47,7 @@ class AudioRecorder {
     }
     
     func sendAudioForTranscription(audioFileURL: URL, completion: @escaping (String?) -> Void) {
-        let url = URL(string: "http://localhost:5000/transcribe")!
+        let url = URL(string: "http://localhost:5005/transcribe")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         
