@@ -20,7 +20,7 @@ xcode-select --install
 ## Installation
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/lansmurf/transcribe.git
 cd transcribe
 ```
 
