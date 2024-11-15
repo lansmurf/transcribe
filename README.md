@@ -33,13 +33,13 @@ pip install .
 
 3. Make the script executable:
 ```bash
-chmod +x voice.sh
+chmod +x start.sh
 ```
 
 ## Usage
 1. Start the application:
 ```bash
-./voice.sh
+./start.sh
 ```
 
 2. Once running:
