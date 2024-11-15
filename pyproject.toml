@@ -1,0 +1,13 @@
+[project]
+name = "asr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.0.3",
+    "mlx-whisper>=0.3.0",
+    "pyobjc>=10.3.1",
+    "soundfile>=0.12.1",
+    "transformers>=4.45.1",
+]
