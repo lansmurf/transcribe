@@ -1,7 +1,3 @@
-# Transcribe tool
-
-Local voice-to-text transcription tool for macOS. Hold Fn key to record, release to transcribe, and the text will be pasted on the textbox youre at.
-
 ## Features
 - Quick recording trigger using the Fn key
 - Copied to both clipboard and to the text box (if applicable)
