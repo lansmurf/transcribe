@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Directory where your project is located
-PROJECT_DIR="$HOME/Projects/asr"
+# Get the directory where the script is located
+PROJECT_DIR="$(dirname "$(realpath "$0")")"
 
 # Change to the project directory
 cd "$PROJECT_DIR"
@@ -19,7 +19,7 @@ else
 fi
 
 # Start the Flask server in the background
-uv run app.py &
+python app.py &
 
 # Store the PID of the Flask server
 FLASK_PID=$!
